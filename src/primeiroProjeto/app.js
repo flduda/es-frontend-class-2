@@ -7,10 +7,13 @@ function sumOne (){
     let newValue = value + 1 
     elementoH3.textContent = newValue;
 
-    //if the value is =>5
+    let r = parseInt(Math.random() * 256)
+    let g = parseInt(Math.random() * 256)
+    let b = parseInt(Math.random() * 256)
+     
+    console.log (r, g, b)
 
-if (newValue == 5) {
-    elementoH3.style.color = 'red'
-}
+    elementoH3.style.color = 'rgb (${r}, ${g}, ${b})';
+
 }
 
