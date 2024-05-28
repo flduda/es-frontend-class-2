@@ -11,9 +11,7 @@ function sumOne (){
     let g = parseInt(Math.random() * 256)
     let b = parseInt(Math.random() * 256)
      
-    console.log (r, g, b)
-
-    elementoH3.style.color = 'rgb (${r}, ${g}, ${b})';
+    elementoH3.style.color = `rgb (${r}, ${g}, ${b})`
 
 }
 
