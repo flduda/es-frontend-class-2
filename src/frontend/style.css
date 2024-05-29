@@ -7,8 +7,10 @@ header {
 }
 
 header nav ul {
+    font-display: flex;
     display: flex;
     justify-content: center;
+    list-style-type: none;
 }
 
 header nav li a {
